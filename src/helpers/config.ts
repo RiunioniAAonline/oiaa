@@ -1,7 +1,7 @@
 //demo data spreadsheet for error testing
 export const dataUrl = `https://spreadsheets.google.com/feeds/list/${
   process.env.REACT_APP_GOOGLE_SHEET_ID ||
-  '1Lw1BUTC6ZNixT1Q_EqVwk0cYcSgP4joBGsB9pM6Otqc'
+  '1wER2LP3dT_6_LEQ8fSY1rv2bGzIZ2aaMBi_0Bt1aN3I'
 }/${process.env.REACT_APP_GOOGLE_SHEET_PAGE || '1'}/public/values?alt=json`;
 
 console.log(dataUrl);
